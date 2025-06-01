@@ -12,8 +12,11 @@ and configure single sign-on (SSO), requiring multi-factor authentication (MFA
 
 It is a was to monitor, create resources, users, change user permissions, customise domains amongst other, all it's services are to help make work easier.
 
+![Screenshot 2025-05-13 113440](https://github.com/user-attachments/assets/da339f7a-46eb-403e-bff5-8631b479ffe4)
+
 ## Global Administrator Role
 Sometimes the role one holds determines the type of access granted for specific tasks or uses. There are different roles, an example is the global administrator role.
+
 The Global Administrator is a privileged role in Microsoft 365 and Azure AD. Users assigned this role have full control over all admin features in all Microsoft services, such as user management, billing, security settings, and service settings. It is usually designated for trusted security personnel who monitor and control settings and services across tenants.
 
 Here is a simple explanation of the above:
@@ -77,32 +80,56 @@ To manage everything, you need a **special pass (User Access Administrator role)
 ###  Steps  
 
 1. 🔗 Open the [Azure Portal](https://portal.azure.com)
+![Screenshot 2025-05-13 113521](https://github.com/user-attachments/assets/1372904e-16cd-43b3-98f8-4d42cd6d48ee)
 
 2. Go to **Microsoft Entra ID** on the left menu.
+![Screenshot 2025-05-13 113440](https://github.com/user-attachments/assets/22c08966-dba0-492c-bd26-ce7f5299b071)
 
 3. Click **Manage** → then **Properties**.
+![Screenshot 2025-05-13 113440](https://github.com/user-attachments/assets/8740145b-0703-4a9c-a9ba-3a060f835f73)
 
 4. Toggle **Access management for Azure resources** to **Enabled** → Save.
+![Screenshot 2025-05-13 113507](https://github.com/user-attachments/assets/0acaebcb-e5bf-4663-963d-372d6fd2787b)
 
 5. Go back to the Azure Portal home page.
+![Screenshot 2025-05-13 113521](https://github.com/user-attachments/assets/213231ba-3e57-4864-8951-250d01d1ea6d)
 
 6. Click **Subscriptions** → select your subscription (**Woodgrove - GTP Demos (External/Sponsored)**).
+![Screenshot 2025-05-13 113554](https://github.com/user-attachments/assets/79cad4d1-d026-4068-9a66-39e08184fd28)
 
 7. Select **Access Control (IAM)**.
+![Screenshot 2025-05-13 113619](https://github.com/user-attachments/assets/b1d99c65-ff75-4f29-9ddc-dbd5799318e5)
 
 8. Click **Add role assignment**.
+![Screenshot 2025-05-13 113711](https://github.com/user-attachments/assets/ded2ed35-0150-426c-b5a9-59abe1e8eb40)
 
 9. Choose:
     - **Role:** Owner  
     - **Members:** Select your name (e.g., Avery Howard)
+![Screenshot 2025-05-13 113745](https://github.com/user-attachments/assets/6f9ffef6-a714-436a-96a2-d3ab9f603cc2)
+![Screenshot 2025-05-13 113723](https://github.com/user-attachments/assets/4bc4f255-c252-4592-950d-f638dd70ee40)
 
 10. Allow user to assign all roles (except privileged administrator roles, Owner, UAA, RBAC) → Continue.
+![Screenshot 2025-05-13 114020](https://github.com/user-attachments/assets/4795c660-2b6b-4acc-ae51-c83630867cdc)
+![Screenshot 2025-05-13 113954](https://github.com/user-attachments/assets/21fffabb-2732-4521-98ad-313c948c5408)
+![Screenshot 2025-05-13 113851](https://github.com/user-attachments/assets/495ec273-62b8-4d46-86b9-a38a2123c5f4)
 
 11. Click **Review + assign** twice.
+![Screenshot 2025-05-13 114045](https://github.com/user-attachments/assets/5b2bd13e-86a7-4b52-ae45-19c3bc44f9d1)
+![Screenshot 2025-05-13 114036](https://github.com/user-attachments/assets/4ffcdf9b-6e37-4665-abef-b1990d9c597a)
 
- Done! You're now the boss 🏆 of your Azure subscription.
+ Done! You're now the boss of your Azure subscription.
+
+
+
+
+
+
+ 
 
 ---
+![Screenshot 2025-05-13 113440](https://github.com/user-attachments/assets/6abc9d52-6e36-4e71-b228-b32360e20154)
+
 
 ##  Task 2: First Run Experience
 
